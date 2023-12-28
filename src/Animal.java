@@ -3,7 +3,7 @@ abstract class Animal {
     private boolean mammals;
     private boolean carnivorous;
 
-    MOOD mood;
+    private MOOD mood;
 
     public Animal(boolean mammals, boolean carnivorous, int mood) {
         this.mammals = mammals;
